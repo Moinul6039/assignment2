@@ -25,3 +25,23 @@
     font-weight: 500;
 }
 
+.nav-btn{
+    width: 262px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgb(11, 2,35,0.10);
+    gap: 10px;
+}
+.fa-youtube{
+    width: 33.916px;
+}
+.img-logo{
+    display: flex;
+    gap: 10px;
+}
+.img-logo img{
+    width: 86.041px;
+    height: 40px;
+    
+}
+
