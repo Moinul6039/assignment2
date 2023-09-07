@@ -100,11 +100,8 @@
 
 .f-section-text-h1{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-
-text-align: right;
+    background-clip: text;
+    text-align: right;
 }
 
 .f-section-primary{
@@ -120,19 +117,14 @@ text-align: right;
 }
 .f-section-btn{
     border-radius: 48px;
-background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
-
-
-padding: 18px 40px;
-
-gap: 10px;
-border: 0;
-color: white;
-margin-top: 10px;
-display: inline-flex;
-align-items: flex-end;
-
-
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    padding: 18px 40px;
+    gap: 10px;
+    border: 0;
+    color: white;
+    margin-top: 10px;
+    display: inline-flex;
+    align-items: flex-end;
 }
 .section-p{
     color: #534C64;
@@ -147,12 +139,8 @@ padding-top: 5px;
 text-align: right;
 }
 .f-section-img img{
-
     width: 100%;
-    
-
 }
-
 .online-game{
     padding-top: 100px;
 }
@@ -196,18 +184,6 @@ padding-bottom: 20px;
     border-radius: 16px;
 }
 
-
-
-
-.item-img{
-    width: 100%;
-}
-.item, .item-img{
-    width: 95%;
-}
-.item-p{
-    padding-top: 8px;
-}
 
 
 .game-download{
@@ -319,8 +295,7 @@ color: #FF42A5;
 .footer{
     height: 426px;
     background: #0B0223;
-    /* padding-left: 160px;
-    padding-right: 160px; */
+    
 }
 .footer-span{
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
@@ -344,11 +319,6 @@ background-clip: text;
     color: white;
     padding-top: 50px;
 }
-
-
-
-
-
 
 .footer-text{
     color: white;
